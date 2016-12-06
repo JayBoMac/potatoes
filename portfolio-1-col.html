@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+ <head> 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,27 +9,38 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Cheesecake_Factory</title>
 
-    <!-- Bootstrap Core CSS -->
+    <-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+    <link href="css/logo-nav.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    
+     <![endif]-->
+    
+        </head>
 
-</head>
-
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -42,61 +53,45 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/CCF_30thChocolateAnnivCheesecake.jpg" class="img-rounded" alt="Cheesecake Logo" width="150"
+                         height="50">
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-family: 'Abril Fatface', cursive">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="recipes.html">Recipes</a>
                     </li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio </a>
-                        <ul class="dropdown-menu">
-                            <li class="active">
-                              <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
+                    <li> 
+                        <a href="contracts.html">Contracts</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
+                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-square"></i></a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="https://github.com/"><i class="fa fa-2x fa-github"></i></a>
+                    </li>
+                     <li>
+                        <a href="https://www.w3schools.com/html/html5_intro.asp"><i class="fa fa-2x fa-html5"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/"><i class="fa fa-2x fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                       <a href="https://twitter.com/?lang=en"><i class="fa fa-2x fa-twitter"></i></a>
                     </li>
                 </ul>
             </div>
@@ -106,164 +101,211 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
+    <div class="container">        <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">One Column Portfolio
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">One Column Portfolio</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
+             <div class="jumbotron">
+               
 
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project One</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <hr>
 
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Two</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <hr>
 
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Three</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <hr>
+<div class="container">
+  
+  <br>
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-        <!-- Project Four -->
-        <div class="row">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" style="font-family: 'Abril Fatface', cursive;">
+        <img src="images/oreo.jpg" alt="Oreo" width="900" height="725">
+        <p> Oreo Cheesecake </p>
+      </div>
 
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Four</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
+      <div class="item" style="font-family: 'Abril Fatface', cursive;">
+        <img src="images/Reeses.jpg" alt="Reeses_Cheesecake" width="900" height="675">
+        <p>Reeses Cheesecake</p>
+      </div>
+    
+      <div class="item" style="font-family: 'Abril Fatface', cursive;">
+        <img src="images/Snickers.jpg" alt="Snickers" width="900" height="675">
+        <p>Snickers Cheesecake</p>
+      </div>
 
-        <hr>
-
-        <!-- Project Five -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Five</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                <a class="btn btn-primary" href="#">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
+      <div class="item" style="font-family: 'Abril Fatface', cursive;">
+        <img src="images/PecanTurtle.jpg" alt="Pecan Turtle" width="900" height="675">
+        <p>Pecan Turtle Cheesecake</p>
+      </div>
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+        
+                 
+                 <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><strong>Click Me!</strong></button>
 
-    <!-- Bootstrap Core JavaScript -->
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cheesecake Factory</h4>
+        </div>
+        <div class="modal-body">
+          <p>Welcome to the Wonderful World of Cheesecake.
+            I hope you admire these stupendous works while 
+              wetting your appetite.
+            </p>
+        </div> 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      </div>
+    </div>
+      
+      
+                 
+                 <script src="js/jquery.js"></script>
+    
     <script src="js/bootstrap.min.js"></script>
+        
+                 <h1 style=" font-family: 'Russo One', sans-serif;">CHEESECAKE FACTORY
+                 </h1>
+ 
+                     
+                 
+                 <h2 style="font-family: 'Hammersmith One', sans-serif;" >Cheesecake Gallery</h2>
+  
+                 <p></p>
+  <div class="row" style="font-family: 'Play', sans-serif;">
+    <div class="col-md-4">
+      <a href="images/cheesecake-port_3419736564ee22e5c21bd4.jpg" class="thumbnail">
+        <p>Raspberry Cheesecake</p>
+        <img src="images/cheesecake-port_3419736564ee22e5c21bd4.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/jewish.jpg" class="thumbnail">
+        <p>Chocolate Caramel </p>
+        <img src="images/jewish.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/red-velvet.jpg" class="thumbnail">
+        <p>Red Velvet Cheesecake</p>
+        <img src="images/red-velvet.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+      </a>
+    </div>
+  
+                 </div>
 
-</body>
+ <h2  style="font-family: 'Hammersmith One', sans-serif;">Cheesecake Gallery</h2>
+  <p></p>
+  <div class="row" style="font-family: 'Play', sans-serif;">
+    <div class="col-md-4">
+      <a href="images/CCF_30thChocolateAnnivCheesecake.jpg" class="thumbnail">
+        <p>Chocolate Dream</p>
+        <img src="images/CCF_30thChocolateAnnivCheesecake.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/ChocolateCheesecake.jpg" class="thumbnail">
+        <p>Chocolate Cheesecake</p>
+        <img src="images/ChocolateCheesecake.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+      </a>
+    </div>    
+      <div class="col-md-4">
+      <a href="images/CCF_OriginalCheesecake.jpg" class="thumbnail">
+         <p>Original Cheesecake</p>
+        <img src="images/CCF_OriginalCheesecake.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+      </a>
+    </div>
+   </div> 
+                 </div>
 
-</html>
+                     </div>
+
+                
+            </div>
+    
+        </div>
+      
+    
+        
+    
+       
+    <hr>
+       
+    <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Cheesecake Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">JayBoMac </a></p></footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+ 
+    </body>
+
+    
+    </html>    
+
+
