@@ -60,33 +60,28 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="https://jaybomac.github.io/cheesecake7/index.html">Cheesecake</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href=" https://jaybomac.github.io/personal/index.html ">All About Me</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href=" https://JayBoMac.github.io/basicwebpage/index.html">Basic Webpage</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
                         </ul>
-                    </li>
+                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
+                                <a href="www.thenewpotato.com/">Potato Blog 1</a>
                             </li>
                             <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
+                                <a href="https://p.ota.to/blog/">Potato Blog 2</a>
                             </li>
                             <li>
-                                <a href="blog-post.html">Blog Post</a>
+                                <a href="www.holypotato.net/">Potate Post</a>
                             </li>
                         </ul>
                     </li>
@@ -105,9 +100,7 @@
                             <li>
                                 <a href="404.html">404</a>
                             </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
+                            
                         </ul>
                     </li>
                 </ul>
@@ -384,25 +377,48 @@
         <!-- /.row -->
 
         <hr>
+       
+    <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Potatoes Theme Made By <a href="http://www.a.j.live.com" title="Visit w3schools">JayBoMac </a></p></footer>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+ 
+    </body>
 
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+    
+    </html>    
